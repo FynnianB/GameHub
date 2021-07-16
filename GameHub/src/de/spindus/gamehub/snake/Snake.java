@@ -63,13 +63,13 @@ public class Snake extends JPanel implements ActionListener {
 	}
 
 	private void loadImages() {
-		ImageIcon iid = new ImageIcon("images/snake/dot.png");
+		ImageIcon iid = new ImageIcon("resources/images/snake/dot.png");
 		ball = iid.getImage();
 
-		ImageIcon iia = new ImageIcon("images/snake/apple.png");
+		ImageIcon iia = new ImageIcon("resources/images/snake/apple.png");
 		apple = iia.getImage();
 
-		ImageIcon iih = new ImageIcon("images/snake/head.png");
+		ImageIcon iih = new ImageIcon("resources/images/snake/head.png");
 		head = iih.getImage();
 	}
 

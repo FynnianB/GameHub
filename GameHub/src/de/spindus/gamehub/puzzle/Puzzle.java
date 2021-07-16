@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.image.BufferedImage;
 import java.awt.image.CropImageFilter;
 import java.awt.image.FilteredImageSource;
-import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -112,7 +112,7 @@ public class Puzzle extends JPanel {
 	}
 
 	private BufferedImage loadImage() throws IOException {
-		BufferedImage bimg = ImageIO.read(new File("images/puzzle/img.jpg"));
+		BufferedImage bimg = ImageIO.read(new FileInputStream("resources/images/puzzle/img.jpg"));
 		return bimg;
 	}
 
